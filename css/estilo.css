@@ -40,7 +40,7 @@ main section#presentacion article div#formulario #acepto-ok:hover { color: #333;
 
 
 /* FOOTER */
-#footer { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: url('../img/bg-footer.png') no-repeat bottom center; background-size: cover; }
+#footer { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: url('../img/bg-footer.png') no-repeat bottom center fixed; background-size: cover; }
 #footer article { width: 1100px; height: 300px; display: block; margin: 0 auto; float: none; position: relative; }
 
 #footer article a#logo-foo { width: 300px; height: 57px; display: block; margin: 115px 165px 0 0; float: left; position: relative; transition: all 0.3s ease-in; }
