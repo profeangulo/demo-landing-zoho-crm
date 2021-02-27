@@ -61,7 +61,19 @@ main section#presentacion article div#formulario #acepto-ok:hover { color: #333;
 
 /* Ajustes Tablets */
 @media only screen and (max-width: 1199px){
-    
+    main section#presentacion { height: auto; }
+    main section#presentacion article { width: 80%; height: auto; }
+    main section#presentacion article figure { width: 100%; height: auto; margin: 0 auto 50px; float: none; }
+    main section#presentacion article figure img#logo { margin: 8vh auto 55px; }
+    main section#presentacion article figure p { text-align: center; }
+    main section#presentacion article div#formulario { width: 100%; height: auto; margin: 0 auto; float: none; }
+
+    .zcwf_lblLeft .zcwf_col_fld { padding: 0 !important; }
+
+    footer#footer article { width: 80%; height: auto; padding: 90px 0 110px; }
+    footer#footer article a#logo-foo { width: 206px; height: auto; margin: 0 auto 55px; float: none; }
+    footer#footer article nav { margin: 0 auto 55px; float: none; }
+    footer#footer article a#logo-opensky { width: 206px; height: auto; margin: 0 auto; float: none; }
 }
 
 /* Ajustes para Móviles */
